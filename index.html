@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-step-form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" class="form">
+    <div class="tabs">
+      <h1>Step 1</h1>
+
+      <input class="input" type="text " placeholder="FirstName..">
+      <input class="input"  type="text" name="" id="" placeholder="LastName..">
+      <input class="input"  type="date" name="" id="" placeholder="Birth-date">
+      <input class="input"  type="text" name="" id="" placeholder="Country..">
+    </div>
+
+    <div class="tabs">
+      <h1>Step 2</h1>
+
+      <div class="drag" id="dragzone" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)" ondragleave="dragleave()" > Drag file here....</div>
+      <input class="input "  type="file" name="" id="" >
+    </div>
+
+    <div class="tabs">
+      <h1>Step 3</h1>
+
+      <input class="input"  type="email" name="" id="" placeholder="email">
+      <input class="input"  type="password" name="" id="" placeholder="Password">
+      <input class="input"  type="password" name="" id="" placeholder="Re-enter Password">
+    </div>
+
+    <div class="tabs">
+        <h1>Thank You..</h1>
+    </div>
+    
+      <input class="btn1 btn" id="prev" type="button" value="< previous">
+      <input class="btn2 btn" id="next" type="button" value="next >">
+    
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
